@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Registration</h1>
+    <br><br>
+    <form>
+        <label for="username">Username*:
+            <input type="text" id="username" name="usernme" required>
+        </label>
+<br><br>
+        <label for="password">Password*:
+            <input type="password" id="password" name="password" required>
+        </label>
+<br><br>
+        <label for="confirmpassword">Confirm Password*:
+            <input type="password" id="confirmpassword" name="confirmpassword" required>
+        
+        </label>
+<br><br>
+        <label for="email">Email*:
+            <input type="email" name="email" id="email" required>
+        </label>
+<br><br>
+        <label for="mobilenumber">Mobile Number:
+            <input type="search" name="mobilenumber" id="mobilenumber">
+        </label>
+<br><br>
+    <p>Select your country:</p>
+        <label for="country">
+            <select name="country" id="country">
+            <optgroup label="India">
+               <option value="Delhi">Delhi</option>
+               <option value="Mumbai">Mumbai</option>
+               <option value="Bangalore">Bangalore</option>
+            </optgroup>
+            <optgroup label="USA">
+                <option value="New York">New York</option>
+                <option value="Florida">Florida</option>
+            </optgroup>
+      </select>
+    </label>
+<br><br>
+<p>Select your preferred mode of communication</p>
+<br>
+<label for="email">
+  <input type="checkbox" name="mode" id="email">Email
+</label>
+<label for="whatsapp">
+    <input type="checkbox" name="mode" id="whatsapp">Whatsapp
+</label>
+<label for="BOTIM">
+    <input type="checkbox" name="mode" id="BOTIM">BOTIM
+</label>
+<label for="call">
+    <input type="checkbox" name="mode" id="call">Call
+</label>
+        <br><br><br>
+        <div class="buttoncolor">
+        <h3>Already registered ? <a href="./login.html">Login</a></h3>
+        </div>  
+        <br><br>
+        <button type="submit"> <a href="./registrationsuccess.html"  target="_blank">Register</a></button>
+        <button type="reset"><a>Reset</a></button>
+    </form>
+</body>
+</html>

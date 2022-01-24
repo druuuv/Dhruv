@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+body{
+    font-family: 'Roboto Slab';
+   background-color: rgb(255,23,31);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   text-align:center}
+
+  p,h3,h2,h1,label{
+    font-family:'Roboto Slab';
+    color: rgb(255,255,255);
+  }
+  .grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+}
+.grid-item{
+    border: 5px solid rgb(255,255,255);
+    padding: 10px;
+}
+button{
+    background-color: transparent;
+    color:rgb(255,255,255);
+    padding: 5px 20px;
+    border: 4.5px solid rgb(255,255,255);
+    font-family: 'Roboto Slab';
+    text-decoration: none;
+}
+button:hover{
+    background-color:rgb(255,255,255);
+    color: rgb(255,23,31);
+    font-family: 'Roboto Slab';
+    border-style: solid;
+    border-color:  rgb(255,23,31);
+    text-decoration: none;
+}
+nav{
+    background-color:rgb(255,23,31);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+        color:rgb(255,255,255) ;
+        font-family: 'Roboto Slab';
+        height: 100px;
+        position: relative;
+    }
+
+    nav>ul{
+        color:rgb(255,255,255);
+        list-style-type:none;
+        border: 2px solid rgb(255,255,255);
+    }
+
+    nav>ul>li{
+        display: inline;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    nav>ul>li>a{
+        text-decoration: none;
+        color:rgb(255,255,255);
+        font-size: 25px;
+    }
+
+    .dropdown{
+        position: relative;
+        display: inline-block;
+    }
+
+    .btn{
+        background-image:linear-gradient(blueviolet,purple);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color:rgb(255,255,255);
+        font-family: 'Roboto Slab';
+        padding: 10px;
+        border:none;
+    }
+    .btn:hover{
+        color: rgb(255,23,31);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+        background-color: rgb(255,255,255);
+    }
+    .dropdowncontent{
+        display: none;
+        background-color:rgb(255,23,31);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+        position: absolute;
+        z-index: 1;
+        min-width: 150px;
+    }
+    .dropdowncontent a{
+        text-decoration: none;
+        color: rgb(255,255,255);
+        display: block;
+        padding: 10px;
+    }
+    .dropdowncontent a:hover{
+        color: rgb(255,23,31);
+        background-color: rgb(255,255,255);
+    }
+    
+
+.dropdown:hover .dropdowncontent{display: block;}
+a{
+    text-decoration: none;}
+.marvel a{
+    color:rgb(255,255,255) ;
+}
+.marvel a:hover{
+    color: rgb(255,23,31);
+}
+.dbt:hover{
+    color: rgb(255,23,31);
+    background-color: rgb(255,255,255);
+}

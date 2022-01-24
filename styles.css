@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+body{
+  font-family: 'Roboto Slab';
+ background-image:linear-gradient(blueviolet,purple);;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ text-align:center}
+
+ h1,label{
+    color: aliceblue;
+ }
+p,h3,h2{
+  font-family:'Roboto Slab';
+  color: aliceblue;
+}
+.link{
+        font-size: medium;
+    }
+nav{
+    background-image:linear-gradient(blueviolet,purple);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+        color: aliceblue;
+        font-family: 'Roboto Slab', serif;
+        height: 100px;
+        position: relative;
+    }
+
+    nav>ul{
+        color: aliceblue;
+        list-style-type:none;
+        border: 2px solid aliceblue;
+    }
+
+    nav>ul>li{
+        display: inline;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    nav>ul>li>a{
+        text-decoration: none;
+        color:aliceblue;
+        font-size: 25px;
+    }
+
+    .dropdown{
+        position: relative;
+        display: inline-block;
+    }
+
+    .btn{
+        background-image:linear-gradient(blueviolet,purple);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color: aliceblue;
+        font-family: 'Roboto Slab';
+        padding: 10px;
+        border:none;
+    }
+    .btn:hover{
+        background-image:linear-gradient(blueviolet,purple);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+        background-color: aliceblue;
+    }
+    .dropdowncontent{
+        display: none;
+        background-image:linear-gradient(blueviolet,purple);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+        position: absolute;
+        z-index: 1;
+        min-width: 150px;
+    }
+    .dropdowncontent a{
+        text-decoration: none;
+        color: aliceblue;
+        display: block;
+        padding: 10px;
+    }
+    .dropdowncontent a:hover{
+        color: rgb(168, 184, 255);
+        background-color: aliceblue;
+    }
+    
+
+.dropdown:hover .dropdowncontent{display: block;}
+
+input{
+    background-color:aliceblue;
+}
+textarea{
+    background-color: aliceblue;
+}
+button{
+    background-color: transparent;
+    color:aliceblue;
+    padding: 5px 20px;
+    border: 4.5px solid aliceblue;
+}
+button:hover{
+    background-color:rgb(5, 134, 255);
+    color:aliceblue;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto Slab';
+}
+.buttoncolor a:hover{
+    color:rgb(168, 238, 255);
+}
+select{
+    background-color: aliceblue;
+    width: 300px;
+    height: 35px;
+    font-family: 'Roboto Slab';
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+}
+.grid-item{
+    border: 5px solid aliceblue;
+    padding: 10px;
+}
